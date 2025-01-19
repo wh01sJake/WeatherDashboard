@@ -1,0 +1,150 @@
+/* Cool & Modern General Styles */
+body {
+    font-family: 'Poppins', Arial, sans-serif; /* Modern Font */
+    background: linear-gradient(to bottom, #f5f5f5, #e0f7fa); /* Subtle Gradient Background */
+    margin: 0;
+    padding: 0;
+    color: #2c3e50; /* Cool dark color for readability */
+}
+
+h1, h2 {
+    color: #00796b; /* Vibrant heading color */
+    font-weight: 600; /* Slightly bolder */
+}
+
+h1 {
+    font-size: 2.5rem; /* Make it slightly bigger */
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 16px; /* More rounded corners */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Softer, elevated shadow */
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.container:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Card hover effect */
+}
+
+/* Section-Specific Styles */
+.search-section input {
+    border: 1px solid #ddd;
+    border-radius: 8px; /* Rounded input fields */
+    padding: 10px;
+    font-size: 16px;
+    width: calc(100% - 150px); /* Adjust width */
+    margin-right: 10px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.search-section input:focus {
+    border-color: #00796b; /* Focus color effect */
+    outline: none;
+}
+
+.search-section button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Gradient button */
+    color: #fff;
+    font-weight: bold;
+    border: none; /* Remove border */
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.search-section button:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.weather-section {
+    background: #edf7fa; /* Softer blue tone */
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Smooth shadow */
+    animation: fadeIn 1s ease-in-out; /* Subtle fade-in animation */
+}
+
+.weather-section h2 {
+    color: #1e88e5; /* Cool blue heading color */
+}
+
+.forecast-section {
+    background: #fcfce9; /* Light yellow tone */
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.forecast-section h2 {
+    color: #33691e; /* Deep green for contrast */
+}
+
+#forecast-cards .card {
+    background: #fff;
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#forecast-cards .card:hover {
+    transform: translateY(-5px); /* Lift up effect */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+#forecast-cards img {
+    width: 60px;
+    height: 60px;
+    margin: 10px 0;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+#forecast-cards img:hover {
+    transform: rotate(10deg); /* Slight rotation for fun */
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem; /* Adjust heading size for small screens */
+    }
+
+    #current-weather img {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+#current-weather img {
+    width: 80px;
+    height: 80px;
+    margin: 10px auto;
+    display: block;
+}
+
+/* Subtle Animation on Fade-In */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

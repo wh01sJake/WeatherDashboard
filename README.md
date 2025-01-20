@@ -5,15 +5,7 @@
 The **Weather Dashboard** is a Java-based application developed using **Jakarta EE**, **Spring Framework**, and other modern technologies to fetch and display dynamic weather information. This project provides real-time weather updates for any city, offers an intuitive user interface, and demonstrates modular software development practices.
 
 
----
 
-## 🌐 Live Demo
-
-The application is currently deployed on **Heroku**. Check it out here:
-
-👉 **[Weather Dashboard Live](https://my-weatherdashboard-app-0957e4d7c137.herokuapp.com)**
-
-Feel free to explore the project and view real-time weather updates for various cities!
 
 ---
 This project showcases:
@@ -31,6 +23,32 @@ This project showcases:
 - **Responsive Design**: Works seamlessly on desktop and mobile devices.
 - **Error Handling**: Graceful handling of network or API issues with user-friendly messages.
 - **Technology Showcase**: Built using modern web development tools and frameworks.
+
+---
+
+## 🌐 Live Demo
+
+The application is currently deployed on **Heroku**. Check it out here:
+
+👉 **[Weather Dashboard Live](https://my-weatherdashboard-app-0957e4d7c137.herokuapp.com)**
+
+Feel free to explore the project and view real-time weather updates for various cities!
+
+---
+## 🙋‍♂️ About Me
+
+Hi there! I'm Likun aka @wh01sJake, a passionate software developer with a keen interest in building scalable and impactful applications. I’m currently in the process of applying to graduate school, where I hope to further deepen my understanding of computer science and software engineering.
+
+### 🔧 My Interests Include:
+- 🚀 Developing modern applications using **Java** and **Spring Framework**.
+- 🌐 Building clean and efficient user interfaces for a seamless user experience.
+- 📊 Applying data-driven solutions to solve real-world problems.
+- 🌦️ Exploring APIs like weather, mapping, and other domain-specific APIs.
+
+### 💡 Why I Built this Project:
+This project is a testament to my skills and enthusiasm for creating functional applications. It allowed me to dive deep into integrating APIs, managing database operations, and developing responsive web applications.
+
+Feel free to connect with me if you'd like to discuss programming, open-source projects, or any exciting tech-related topics! 😊
 
 ---
 

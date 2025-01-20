@@ -4,6 +4,18 @@
 
 The **Weather Dashboard** is a Java-based application developed using **Jakarta EE**, **Spring Framework**, and other modern technologies to fetch and display dynamic weather information. This project provides real-time weather updates for any city, offers an intuitive user interface, and demonstrates modular software development practices.
 
+
+---
+
+## 🌐 Live Demo
+
+The application is currently deployed on **Heroku**. Check it out here:
+
+👉 **[Weather Dashboard Live](https://my-weatherdashboard-app-0957e4d7c137.herokuapp.com)**
+
+Feel free to explore the project and view real-time weather updates for various cities!
+
+---
 This project showcases:
 - **Software engineering principles** suitable for modern cloud-based applications.
 - **API integration** to fetch real-time data.
@@ -93,26 +105,21 @@ mvn spring-boot:run
 
 ## 📸 Screenshots
 
-Add screenshots of your application here to showcase the UI and features.
+![Weather Dashboard Screenshot](https://github.com/user-attachments/assets/be027c06-5b7c-416e-b026-75ab6aa7b090)
+*Home page*
 
-Example:
-![Weather Dashboard Screenshot](https://via.placeholder.com/800x400)  
-*Real-time weather search interface.*
+![Weather Dashboard Screenshot](https://github.com/user-attachments/assets/cca09f8f-4378-4fa3-b3b7-6c39afffd688)
+*Login*
 
----
+![Weather Dashboard Screenshot](https://github.com/user-attachments/assets/e9f2930e-609e-452d-a874-694ae24cc307)
+*Register*
 
-## 🧪 Testing
+![Weather Dashboard Screenshot](https://github.com/user-attachments/assets/fd7392bd-77db-4f7b-a444-815f9232ff02)
+*Real-time weather search interface*
 
-Testing is a critical component of this project. It includes:
-- **Unit Tests**: For service and repository layers (using JUnit).
-- **Integration Tests**: To test API and database operations.
-
-To run all tests:
-```bash
-mvn test
-```
 
 ---
+
 
 ## 🛡️ Security
 
@@ -132,13 +139,7 @@ The project has opportunities for future growth:
 
 ---
 
-## 📚 Learning Outcomes
 
-Developing this project demonstrates:
-- Proficiency in Java-based web development with frameworks like **Spring Boot** and **Jakarta EE**.
-- Expertise in integrating external APIs (RESTful services).
-- Building scalable, secure, and maintainable applications.
-- Practical understanding of **database integration** and **data persistence**.
 
 ---
 
